@@ -22,6 +22,7 @@
 		9637A74B16C0192200EABFA1 /* ADLivelyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9637A74916C0192200EABFA1 /* ADLivelyTableView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9637A74F16C0197F00EABFA1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9637A74E16C0197F00EABFA1 /* QuartzCore.framework */; };
 		9637A75216C01CCE00EABFA1 /* ABTATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9637A75116C01CCE00EABFA1 /* ABTATableViewController.m */; };
+		964108D616C02AD10076C9D3 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964108D516C02AD10076C9D3 /* AddressBook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,8 @@
 		9637A74E16C0197F00EABFA1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		9637A75016C01CCE00EABFA1 /* ABTATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTATableViewController.h; sourceTree = "<group>"; };
 		9637A75116C01CCE00EABFA1 /* ABTATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTATableViewController.m; sourceTree = "<group>"; };
+		964108D316C028FA0076C9D3 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		964108D516C02AD10076C9D3 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				964108D616C02AD10076C9D3 /* AddressBook.framework in Frameworks */,
 				9637A74F16C0197F00EABFA1 /* QuartzCore.framework in Frameworks */,
 				9637A72116C0186B00EABFA1 /* UIKit.framework in Frameworks */,
 				9637A72316C0186B00EABFA1 /* Foundation.framework in Frameworks */,
@@ -84,6 +88,8 @@
 		9637A71F16C0186B00EABFA1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				964108D516C02AD10076C9D3 /* AddressBook.framework */,
+				964108D316C028FA0076C9D3 /* AddressBookUI.framework */,
 				9637A74E16C0197F00EABFA1 /* QuartzCore.framework */,
 				9637A72016C0186B00EABFA1 /* UIKit.framework */,
 				9637A72216C0186B00EABFA1 /* Foundation.framework */,
@@ -337,6 +343,7 @@
 				9637A74516C0186B00EABFA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
