@@ -19,6 +19,9 @@
 		9637A73A16C0186B00EABFA1 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9637A73816C0186B00EABFA1 /* MainStoryboard_iPhone.storyboard */; };
 		9637A73D16C0186B00EABFA1 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9637A73B16C0186B00EABFA1 /* MainStoryboard_iPad.storyboard */; };
 		9637A74016C0186B00EABFA1 /* ABTAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9637A73F16C0186B00EABFA1 /* ABTAViewController.m */; };
+		9637A74B16C0192200EABFA1 /* ADLivelyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9637A74916C0192200EABFA1 /* ADLivelyTableView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9637A74F16C0197F00EABFA1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9637A74E16C0197F00EABFA1 /* QuartzCore.framework */; };
+		9637A75216C01CCE00EABFA1 /* ABTATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9637A75116C01CCE00EABFA1 /* ABTATableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,11 @@
 		9637A73C16C0186B00EABFA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		9637A73E16C0186B00EABFA1 /* ABTAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABTAViewController.h; sourceTree = "<group>"; };
 		9637A73F16C0186B00EABFA1 /* ABTAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABTAViewController.m; sourceTree = "<group>"; };
+		9637A74916C0192200EABFA1 /* ADLivelyTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADLivelyTableView.m; sourceTree = "<group>"; };
+		9637A74A16C0192200EABFA1 /* ADLivelyTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADLivelyTableView.h; sourceTree = "<group>"; };
+		9637A74E16C0197F00EABFA1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9637A75016C01CCE00EABFA1 /* ABTATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTATableViewController.h; sourceTree = "<group>"; };
+		9637A75116C01CCE00EABFA1 /* ABTATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTATableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9637A74F16C0197F00EABFA1 /* QuartzCore.framework in Frameworks */,
 				9637A72116C0186B00EABFA1 /* UIKit.framework in Frameworks */,
 				9637A72316C0186B00EABFA1 /* Foundation.framework in Frameworks */,
 				9637A72516C0186B00EABFA1 /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +84,7 @@
 		9637A71F16C0186B00EABFA1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9637A74E16C0197F00EABFA1 /* QuartzCore.framework */,
 				9637A72016C0186B00EABFA1 /* UIKit.framework */,
 				9637A72216C0186B00EABFA1 /* Foundation.framework */,
 				9637A72416C0186B00EABFA1 /* CoreGraphics.framework */,
@@ -91,6 +101,9 @@
 				9637A73B16C0186B00EABFA1 /* MainStoryboard_iPad.storyboard */,
 				9637A73E16C0186B00EABFA1 /* ABTAViewController.h */,
 				9637A73F16C0186B00EABFA1 /* ABTAViewController.m */,
+				9637A75016C01CCE00EABFA1 /* ABTATableViewController.h */,
+				9637A75116C01CCE00EABFA1 /* ABTATableViewController.m */,
+				9637A74D16C0195F00EABFA1 /* ADLivelyTableView */,
 				9637A72716C0186B00EABFA1 /* Supporting Files */,
 			);
 			path = AddressBookTableAnimated;
@@ -108,6 +121,15 @@
 				9637A73616C0186B00EABFA1 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9637A74D16C0195F00EABFA1 /* ADLivelyTableView */ = {
+			isa = PBXGroup;
+			children = (
+				9637A74A16C0192200EABFA1 /* ADLivelyTableView.h */,
+				9637A74916C0192200EABFA1 /* ADLivelyTableView.m */,
+			);
+			name = ADLivelyTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +203,8 @@
 				9637A72D16C0186B00EABFA1 /* main.m in Sources */,
 				9637A73116C0186B00EABFA1 /* ABTAAppDelegate.m in Sources */,
 				9637A74016C0186B00EABFA1 /* ABTAViewController.m in Sources */,
+				9637A74B16C0192200EABFA1 /* ADLivelyTableView.m in Sources */,
+				9637A75216C01CCE00EABFA1 /* ABTATableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
