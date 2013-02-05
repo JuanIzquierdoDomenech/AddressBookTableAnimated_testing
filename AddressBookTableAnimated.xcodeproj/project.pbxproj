@@ -25,6 +25,8 @@
 		964108D616C02AD10076C9D3 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964108D516C02AD10076C9D3 /* AddressBook.framework */; };
 		96DB197616C154A700EAD4F5 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964108D316C028FA0076C9D3 /* AddressBookUI.framework */; };
 		96DB197916C154F500EAD4F5 /* ABTAPeoplePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DB197816C154F500EAD4F5 /* ABTAPeoplePickerViewController.m */; };
+		96DB197B16C15E0C00EAD4F5 /* nyan.gif in Resources */ = {isa = PBXBuildFile; fileRef = 96DB197A16C15E0C00EAD4F5 /* nyan.gif */; };
+		96DB197D16C15E9700EAD4F5 /* nyan2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 96DB197C16C15E9700EAD4F5 /* nyan2.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,8 @@
 		964108D516C02AD10076C9D3 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		96DB197716C154F500EAD4F5 /* ABTAPeoplePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTAPeoplePickerViewController.h; sourceTree = "<group>"; };
 		96DB197816C154F500EAD4F5 /* ABTAPeoplePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTAPeoplePickerViewController.m; sourceTree = "<group>"; };
+		96DB197A16C15E0C00EAD4F5 /* nyan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = nyan.gif; sourceTree = "<group>"; };
+		96DB197C16C15E9700EAD4F5 /* nyan2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = nyan2.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,8 @@
 				9637A73216C0186B00EABFA1 /* Default.png */,
 				9637A73416C0186B00EABFA1 /* Default@2x.png */,
 				9637A73616C0186B00EABFA1 /* Default-568h@2x.png */,
+				96DB197A16C15E0C00EAD4F5 /* nyan.gif */,
+				96DB197C16C15E9700EAD4F5 /* nyan2.gif */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -203,6 +209,8 @@
 				9637A73716C0186B00EABFA1 /* Default-568h@2x.png in Resources */,
 				9637A73A16C0186B00EABFA1 /* MainStoryboard_iPhone.storyboard in Resources */,
 				9637A73D16C0186B00EABFA1 /* MainStoryboard_iPad.storyboard in Resources */,
+				96DB197B16C15E0C00EAD4F5 /* nyan.gif in Resources */,
+				96DB197D16C15E9700EAD4F5 /* nyan2.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

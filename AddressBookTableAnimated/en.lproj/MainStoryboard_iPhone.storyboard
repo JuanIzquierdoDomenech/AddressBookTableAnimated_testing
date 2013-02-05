@@ -116,20 +116,6 @@
             <point key="canvasLocation" x="-176" y="-53"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="ABTAPeoplePickerViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ABTAPeoplePickerViewController.h"/>
-        </class>
-        <class className="ABTATableViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ABTATableViewController.h"/>
-        </class>
-        <class className="ABTAViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ABTAViewController.h"/>
-        </class>
-        <class className="ADLivelyTableView" superclassName="UITableView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ADLivelyTableView.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
