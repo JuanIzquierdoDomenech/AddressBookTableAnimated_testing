@@ -23,6 +23,8 @@
 		9637A74F16C0197F00EABFA1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9637A74E16C0197F00EABFA1 /* QuartzCore.framework */; };
 		9637A75216C01CCE00EABFA1 /* ABTATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9637A75116C01CCE00EABFA1 /* ABTATableViewController.m */; };
 		964108D616C02AD10076C9D3 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964108D516C02AD10076C9D3 /* AddressBook.framework */; };
+		96DB197616C154A700EAD4F5 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964108D316C028FA0076C9D3 /* AddressBookUI.framework */; };
+		96DB197916C154F500EAD4F5 /* ABTAPeoplePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DB197816C154F500EAD4F5 /* ABTAPeoplePickerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		9637A75116C01CCE00EABFA1 /* ABTATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTATableViewController.m; sourceTree = "<group>"; };
 		964108D316C028FA0076C9D3 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 		964108D516C02AD10076C9D3 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		96DB197716C154F500EAD4F5 /* ABTAPeoplePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTAPeoplePickerViewController.h; sourceTree = "<group>"; };
+		96DB197816C154F500EAD4F5 /* ABTAPeoplePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTAPeoplePickerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96DB197616C154A700EAD4F5 /* AddressBookUI.framework in Frameworks */,
 				964108D616C02AD10076C9D3 /* AddressBook.framework in Frameworks */,
 				9637A74F16C0197F00EABFA1 /* QuartzCore.framework in Frameworks */,
 				9637A72116C0186B00EABFA1 /* UIKit.framework in Frameworks */,
@@ -109,6 +114,8 @@
 				9637A73F16C0186B00EABFA1 /* ABTAViewController.m */,
 				9637A75016C01CCE00EABFA1 /* ABTATableViewController.h */,
 				9637A75116C01CCE00EABFA1 /* ABTATableViewController.m */,
+				96DB197716C154F500EAD4F5 /* ABTAPeoplePickerViewController.h */,
+				96DB197816C154F500EAD4F5 /* ABTAPeoplePickerViewController.m */,
 				9637A74D16C0195F00EABFA1 /* ADLivelyTableView */,
 				9637A72716C0186B00EABFA1 /* Supporting Files */,
 			);
@@ -211,6 +218,7 @@
 				9637A74016C0186B00EABFA1 /* ABTAViewController.m in Sources */,
 				9637A74B16C0192200EABFA1 /* ADLivelyTableView.m in Sources */,
 				9637A75216C01CCE00EABFA1 /* ABTATableViewController.m in Sources */,
+				96DB197916C154F500EAD4F5 /* ABTAPeoplePickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
