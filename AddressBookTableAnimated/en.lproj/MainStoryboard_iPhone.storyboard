@@ -7,7 +7,6 @@
         <!--View Controller-->
         <scene sceneID="5">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
                 <viewController id="2" customClass="ABTAViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
@@ -48,6 +47,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="1Db-3P-CBK"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="709" y="-10"/>
         </scene>
@@ -100,7 +100,6 @@
         <!--Navigation Controller-->
         <scene sceneID="7lo-W0-eOm">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MGh-bV-eeF" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="hz1-0j-BLT" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="FAs-zf-74e">
@@ -112,10 +111,25 @@
                         <segue destination="2" kind="relationship" relationship="rootViewController" id="bh8-eX-NQH"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MGh-bV-eeF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-176" y="-53"/>
         </scene>
     </scenes>
+    <classes>
+        <class className="ABTAPeoplePickerViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ABTAPeoplePickerViewController.h"/>
+        </class>
+        <class className="ABTATableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ABTATableViewController.h"/>
+        </class>
+        <class className="ABTAViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ABTAViewController.h"/>
+        </class>
+        <class className="ADLivelyTableView" superclassName="UITableView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ADLivelyTableView.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
